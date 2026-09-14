@@ -1,0 +1,79 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f5b77703",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Colors from both sets:\n",
+      "{'black', 'red', 'blue', 'green', 'yellow'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "color_set1 = {\"red\", \"green\", \"blue\"}\n",
+    "color_set2 = {\"yellow\", \"blue\", \"black\"}\n",
+    "\n",
+    "print(\"Colors from both sets:\")\n",
+    "print(color_set1 | color_set2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "838add56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Colors in Set 1 but not in Set 2:\n",
+      "{'green', 'red'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "color_set1 = {\"red\", \"green\", \"blue\", \"yellow\"}\n",
+    "color_set2 = {\"blue\", \"yellow\", \"black\"}\n",
+    "\n",
+    "print(\"Colors in Set 1 but not in Set 2:\")\n",
+    "print(color_set1 - color_set2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "91b44f1f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
